@@ -1,48 +1,30 @@
-        <!--**********************************
-            Footer start
-        ***********************************-->
-        <div class="footer">
-            <div class="copyright">
-                <p>Copyright &copy; Designed & Developed by <a href="https://themeforest.net/user/quixlab">Quixlab</a> 2018</p>
-            </div>
-        </div>
-        <!--**********************************
-            Footer end
-        ***********************************-->
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Khanande's Vidharbh Special</span></strong>. All Rights Reserved
     </div>
-    <!--**********************************
-        Main wrapper end
-    ***********************************-->
+    </footer><!-- End Footer -->
 
-    <!--**********************************
-        Scripts
-    ***********************************-->
-    <script src="{{asset('plugins/common/common.min.js')}}"></script>
-    <script src="{{asset('js/custom.min.js')}}"></script>
-    <script src="{{asset('js/settings.js')}}"></script>
-    <script src="{{asset('js/gleek.js')}}"></script>
-    <script src="{{asset('js/styleSwitcher.js')}}"></script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-
-    <!-- Chartjs -->
-    <script src="{{asset('./plugins/chart.js/Chart.bundle.min.js')}}"></script>
-    <!-- Circle progress -->
-    <script src="{{asset('./plugins/circle-progress/circle-progress.min.js')}}"></script>
-    <!-- Datamap -->
-    <script src="{{asset('./plugins/d3v3/index.js')}}"></script>
-    <script src="{{asset('./plugins/topojson/topojson.min.js')}}"></script>
-    <script src="{{asset('./plugins/datamaps/datamaps.world.min.js')}}"></script>
-    <!-- Morrisjs -->
-    <script src="{{asset('./plugins/raphael/raphael.min.js')}}"></script>
-    <script src="{{asset('./plugins/morris/morris.min.js')}}"></script>
-    <!-- Pignose Calender -->
-    <script src="{{asset('./plugins/moment/moment.min.js')}}"></script>
-    <script src="{{asset('./plugins/pg-calendar/js/pignose.calendar.min.js')}}"></script>
-    <!-- ChartistJS -->
-    <script src="{{asset('./plugins/chartist/js/chartist.min.js')}}"></script>
-    <script src="{{asset('./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js')}}"></script>
+  <!-- Vendor JS Files -->
+  <script src="{{asset('assets/vendor/apexcharts/apexcharts.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/chart.js/chart.umd.js')}}"></script>
+  <script src="{{asset('assets/vendor/echarts/echarts.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/quill/quill.js')}}"></script>
+  <script src="{{asset('assets/vendor/simple-datatables/simple-datatables.js')}}"></script>
+  <script src="{{asset('assets/vendor/tinymce/tinymce.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="{{asset('./js/dashboard/dashboard-1.js')}}"></script>
+  <!-- Template Main JS File -->
+  <script src="{{asset('assets/js/main.js')}}"></script>
+  <script src="{{asset('assets/js/dailystock.js')}}"></script>
 
+
+</body>
+
+</html>
